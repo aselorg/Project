@@ -1,0 +1,33 @@
+.concept {
+    background-color: var(--color_beige);
+    display: flex;
+    gap: 120px;
+    padding: 90px var(--side_padding);
+}
+
+.concept__left {
+    flex-basis: 40%;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.concept__left p {
+    margin-top: 20px;
+}
+
+.concept__right {
+    flex-basis: 60%;
+    flex-shrink: 1;
+
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: repeat(2, 270px);
+}
+
+.concept__right img:nth-child(2) {
+    grid-row-start: span 2;
+}
