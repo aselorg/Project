@@ -1,0 +1,34 @@
+@font-face {
+    font-family: headerText;
+    src: url(../font/ofont.ru_Geoform.ttf);
+}
+
+@font-face {
+    font-family: baseText;
+    src: url(../font/ofont.ru_TikTok\ Sans.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+:root{
+    --color_brown: #3c2224;
+    --color_beige: #f2e8dc;
+    --color_white: rgb(248, 248, 248);
+    --side_padding: 8vw;
+}
+
+html{font-size: 18px}
+p{font-size: 1rem; font-family: baseText;}
+h1{font-size: 1.8rem; font-family: headerText; text-transform: uppercase; letter-spacing: 3px;}
+h2{font-size: 1.6rem; font-family: headerText; text-transform: uppercase; letter-spacing: 2px;}
+a{text-decoration: none;}
