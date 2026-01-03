@@ -1,7 +1,6 @@
 .header img{
-    width: 400px;
-
-    
+    width: 400px; 
+    height: auto; 
 }
 .header{
     height: 105%;
@@ -24,4 +23,5 @@ header{
 }
 header p{
     padding: 40px 20px 40px 20px;
+    color: var(--color_white);
 }
