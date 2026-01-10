@@ -30,8 +30,21 @@ h4{font-size: 1.2rem; font-family: headerText; text-transform: uppercase; letter
     background-color: var(--color_beige);
     height: 70%;
     width: 90%;
-
     
 }
 .slayders h2, h4{padding: 20px; text-align: center;}
 .slayders p{padding: 30px; text-align: center;}
+
+.treck{
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+.card1{
+    flex-shrink: 0;
+    width: 100%;
+    padding: 20px 30px;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
