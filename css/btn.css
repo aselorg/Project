@@ -1,0 +1,14 @@
+.btn_to_start{
+    z-index: 1;
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    background-color: var(--color_brown);
+    color: var(--color_beige);
+    border: solid 3px var(--color_beige);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 50px;
+}
