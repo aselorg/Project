@@ -1,0 +1,23 @@
+.events{
+    background-color: var(--color_beige);
+    padding: 90px var(--side_padding);
+    text-align: center;
+}
+.event_flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.event_card{
+    width: 300px;
+    height: 900px;
+    border: solid 3px var(--color_brown);
+}
+.event_flex button{
+    border: dotted 2px var(--color_brown);
+    margin: 10px;
+    background-color: var(--color_beige);
+}
+.events p{
+    margin: 10px;
+}
